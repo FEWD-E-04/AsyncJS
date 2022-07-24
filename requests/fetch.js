@@ -10,18 +10,6 @@ const getBtn = document.getElementById("get-btn");
 // before the next .then, also check for a network error :in case of network error, display its error message
 // b) second .then() : finally, chain another .then that takes the output and returns it. Don't forget to console log the reponse to see it on the browser console.
 
-// 2. Create a fetch SET method: create a function called sendData
-
-// hints: optional, can do on your own if you want
-// use fetch to call the following address, and pass it in three arguments:
-// the address: "https://reqres.in/api/users"
-// an object with a POST method and  headers: {'Content-type': 'application/json'}
-// and the body, JSON.stringify({name: 'morpheus', job: 'leader'})
-// then, check if the response is okay, if so return the response's json
-// if not, throw a new error
-// also check for a networkError
-// then, it should take the response if the above was successful and return it. Don't forget to console log the reponse to see it on the browser console.
-
 // Buttons eventListeners
 
 const getData = () => {
