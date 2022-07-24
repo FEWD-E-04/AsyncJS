@@ -22,7 +22,7 @@ const birthdayParty = new Promise((resolve, reject) => {
       };
       return resolve(venue);
     } else {
-        reject("Sorry, in house birthday party.");
+      return reject("Sorry, in house birthday party.");
     }
   });
 

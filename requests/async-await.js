@@ -8,7 +8,6 @@ const getData = async () => {
       const response = await fetch("https://reqres.in/api/users?page=2");
       const jsonResponse = await response.json();
         console.log(jsonResponse);
-        return jsonResponse;
     } catch (error) {
         error = `Request failed!`
         console.log(error)

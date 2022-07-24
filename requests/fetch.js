@@ -30,7 +30,6 @@ const getData = () => {
       (response) => response.json())
     .then((jsonResponse) => {
       console.log(jsonResponse);
-      return jsonResponse;
     })
     .catch(() => console.log(`Request failed!`));
 };
